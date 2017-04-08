@@ -30,7 +30,7 @@ class LoginForm extends Component{
         })
     }
     onLoginFailed(){
-        console.log("got here")
+        console.log("got hes re")
         this.setState({error:'Authentication Failed',loading:false})
     }
     render(){
